@@ -1,0 +1,13 @@
+public class Main {
+
+    public static void main(String[] args) {
+        int resultado = 0;
+        resultado = main(4, 5, 1);
+        System.out.println(resultado);
+    }
+
+    public static int main(int a, int b, int c) {
+        return a + b + c;
+    }
+
+}
