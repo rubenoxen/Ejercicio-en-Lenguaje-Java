@@ -1,20 +1,21 @@
-  }
+ public class Coche {
+    private int puertas;
 
-    public class coche {
-        private int puertas;
-
-        public coche(int puertas) {
-            this.puertas = puertas;
-        }
-        public void addPuertas(int puertas) {
-            this.puertas += puertas;
-        }
-        public void printInfo() {
-            System.out.println("Puertas:" + puertas);
-        }
-        public static void main(String[] args) {
-            coche miCoche = new coche(4);
-            miCoche.addPuertas(2);
-            miCoche.printInfo();
-        }
+    public Coche(int puertas) {
+        this.puertas = puertas;
     }
+
+    public void addPuertas (int puertas) {
+        this.puertas += puertas;
+    }
+
+    public void printInfo() {
+        System.out.println("Puertas:" + puertas);
+    }
+
+    public static void main(String[] args) {
+        Coche coche = new Coche(4);
+        coche.addPuertas(2);
+        coche.printInfo();
+    }
+}
