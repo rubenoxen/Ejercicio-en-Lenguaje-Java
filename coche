@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         Coche miCoche = new Coche();
         miCoche.addPuertas();
-        System.out.println(miCoche.puertas);
+        System.out.println("El coche tiene " + miCoche.puertas + " puertas.");
     }
 
     public static int suma(int a, int b) {
