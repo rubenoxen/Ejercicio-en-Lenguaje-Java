@@ -1,0 +1,13 @@
+public class Main {
+
+    public static void main(String[] args) {
+        int numerfl = 0;
+
+        if(numerfl > 0) {
+            System.out.println("positivo");
+        } else if (numerfl == 0 ) {
+            System.out.println("0");
+        } else if (numerfl < 0)
+            System.out.println("negativo");
+    }
+}
