@@ -1,0 +1,11 @@
+public class Main {
+
+    public static void main(String[] args) {
+        var numeroWhile = -14;
+        
+        while (numeroWhile < 3) {
+            numeroWhile++;
+            System.out.println(numeroWhile);
+        }
+    }
+}
